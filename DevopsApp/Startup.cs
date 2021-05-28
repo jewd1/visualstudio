@@ -16,6 +16,7 @@ namespace DevopsApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            // Changes made
         }
 
         public IConfiguration Configuration { get; }
